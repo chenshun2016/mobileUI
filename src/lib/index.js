@@ -1,10 +1,12 @@
 import progressBar from './progressBar/progressBar'
 import loading from './loading/loading'
+import alert from './alert/alert'
 
 const components = {
     install(Vue){
         Vue.component('progressBar',progressBar);
         Vue.component('loading',loading);
+        Vue.component('alert',alert);
     }
 }
 

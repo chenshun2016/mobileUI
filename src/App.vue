@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <progress-bar></progress-bar>
+      <router-view></router-view>
   </div>
 </template>
 
